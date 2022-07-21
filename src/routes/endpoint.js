@@ -1,5 +1,5 @@
 export function GET(event) {
-  const ctx = event?.platform?.context
+  const ctx = event
   return {
     body: {
       ctx
