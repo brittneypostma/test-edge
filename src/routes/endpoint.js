@@ -1,7 +1,7 @@
-export function GET(event) {
-  const ctx = event
+export function GET(event, ctx) {
   return {
     body: {
+      event,
       ctx
     }
   }
